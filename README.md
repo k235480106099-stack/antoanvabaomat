@@ -2,7 +2,7 @@
 
 **Môn:** An toàn và bảo mật thông tin
 **Sinh viên:** Phạm Thanh Sơn – MSSV K235480106099 – Lớp K59KMT
-**Trường:** Trường Đại học Kỹ thuật Công nghiệp – ĐH Thái Nguyên *(sửa lại cho đúng tên trường nếu cần)*
+**Trường:** Trường Đại học Kỹ thuật Công nghiệp – ĐH Thái Nguyên 
 
 ---
 
@@ -60,7 +60,6 @@ dotnet run -c Release
 
 Thứ tự dùng: sinh khoá (1) hoặc import khoá (3) trước, sau đó dùng các chức năng còn lại. Mỗi lần chạy lại chương trình phải import đúng khoá đã dùng để mã hoá thì mới giải mã được.
 
-> Lưu ý: file khoá `aes.key` là bí mật nên **không đưa lên GitHub** (đã khai báo trong `.gitignore`).
 
 ## 5. Kết quả thử nghiệm
 
@@ -68,41 +67,50 @@ Thứ tự dùng: sinh khoá (1) hoặc import khoá (3) trước, sau đó dùn
 
 **Sinh khoá AES (menu 1)** – khoá 128 bit, hiển thị dạng Base64:
 
-![Sinh khoá AES 128 bit](images/01_sinh_khoa.png)
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/852e19f8-4e19-420f-90a6-188b52e6a7ee" />
+
 
 **Lưu khoá ra file (menu 2)** – khoá được lưu vào `aes.key`:
 
-![Lưu khoá ra file](images/02_luu_khoa.png)
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/3374efa5-088a-400f-892f-daae400d2f13" />
+
 
 **Import khoá từ file (menu 3)** – đọc lại `aes.key`, chương trình xác nhận khoá 128 bit:
 
-![Import khoá từ file](images/03_import_khoa.png)
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/d1d96789-4362-4645-8e79-1c0947b1e993" />
+
 
 **Mã hoá file (menu 6)** – mã hoá `test.txt` thành `test.txt.enc`:
 
-![Mã hoá file](images/04_ma_hoa_file.png)
+<img width="1911" height="1078" alt="image" src="https://github.com/user-attachments/assets/2e43e16b-aff9-4a03-ab42-d6b52f21109f" />
+
 
 **Giải mã file (menu 7)** – giải mã `test.txt.enc` thành `test_giaima.txt`:
 
-![Giải mã file](images/05_giai_ma_file.png)
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/54930b6d-d0d7-4b45-96e7-0aec9b1ce0f2" />
+
 
 **So sánh theo byte (menu 8)** – file nguồn và file giải mã giống nhau hoàn toàn (32 byte):
 
-![So sánh theo byte](images/06_so_sanh_byte.png)
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/f6be30fc-e5a4-4b3f-876e-0c212819a536" />
+
 
 ### 5.2. Thử nghiệm file lớn (menu 9, AES-128, CBC, PKCS7)
 
 **File 100 MB**
 
-![Benchmark 100MB](images/07_benchmark_100MB.png)
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/c6d8e12c-ad10-47d5-9249-a0abe08f9d05" />
+
 
 **File 1 GB**
 
-![Benchmark 1GB](images/08_benchmark_1GB.png)
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/b7b28164-92b3-49db-aaa5-1f5570532c1e" />
+
 
 **File 4 GB**
 
-![Benchmark 4GB](images/09_benchmark_4GB.png)
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/4d2d26c4-a573-4e80-b8d1-cf89464884c3" />
+
 
 ### 5.3. Bảng tổng hợp số liệu
 
