@@ -1,0 +1,14 @@
+E:\Aesapp\bin\Release\net8.0\AesApp.exe
+E:\Aesapp\bin\Release\net8.0\AesApp.deps.json
+E:\Aesapp\bin\Release\net8.0\AesApp.runtimeconfig.json
+E:\Aesapp\bin\Release\net8.0\AesApp.dll
+E:\Aesapp\bin\Release\net8.0\AesApp.pdb
+E:\Aesapp\obj\Release\net8.0\AesApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Aesapp\obj\Release\net8.0\AesApp.AssemblyInfoInputs.cache
+E:\Aesapp\obj\Release\net8.0\AesApp.AssemblyInfo.cs
+E:\Aesapp\obj\Release\net8.0\AesApp.csproj.CoreCompileInputs.cache
+E:\Aesapp\obj\Release\net8.0\AesApp.dll
+E:\Aesapp\obj\Release\net8.0\refint\AesApp.dll
+E:\Aesapp\obj\Release\net8.0\AesApp.pdb
+E:\Aesapp\obj\Release\net8.0\AesApp.genruntimeconfig.cache
+E:\Aesapp\obj\Release\net8.0\ref\AesApp.dll
