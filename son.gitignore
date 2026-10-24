@@ -1,5 +1,0 @@
-   bin/
-   obj/
-   aes.key
-   *.enc
-   test_giaima.txt
